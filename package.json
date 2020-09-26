@@ -1,0 +1,11 @@
+{
+  "name": "legislation-scraper",
+  "version": "0.0.0",
+  "description": "Scrape data on how politicians vote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "woodi3",
+  "license": "MIT"
+}
