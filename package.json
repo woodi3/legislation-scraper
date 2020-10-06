@@ -4,11 +4,20 @@
   "description": "Scrape data on how politicians vote",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js --clearDB",
+    "start:debug": "node index.js --debug --clearDB",
+    "start:withBrowser": "node index.js -w --debug --clearDB",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "woodi3",
   "license": "MIT",
   "dependencies": {
-    "playwright": "^1.4.2"
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.7",
+    "playwright": "^1.4.2",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "yargs": "^16.0.3"
   }
 }
